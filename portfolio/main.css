@@ -8,7 +8,8 @@
 }
 iframe {
   position: absolute;
-  width: auto; 
+  width: /*auto*/ 800px; 
+  height: 600px;
   /* height: 100vh;; */
   /* margin: auto; */
 }
@@ -369,8 +370,8 @@ section .text-container .text-box h3 {
 }
 
 #Project .text-box {
-  width: 350px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
 }
 
 #Project > .container > .text-container {
